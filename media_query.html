@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .conatiner{
+            display: grid;
+            grid-template-columns: repeat(3 , 1fr);
+            gap : 10px;   
+        }
+
+        .dress{
+            border: 2px solid red;
+            border-radius: 10px;
+            padding: 10px;
+
+            
+
+        }
+
+        .dress img{
+            width: 100%;
+        }
+
+    /* == Smaller Device Media Query== */
+        @media screen and (max-width:576px){
+            .conatiner{
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+
+            .dress{
+             
+                border: 2px solid green;
+            }
+        }
+        /* === medium device Media Query ====== */
+
+        @media screen and (min-width: 577px) and (max-width : 992px) {
+
+            .conatiner{
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .dress{
+                border: 2px solid yellow;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="conatiner">
+        <div class="dress">
+            <img src="Sporshia.jpg" alt="">
+            <h3>dress-item</h3>
+            <p>Price: 0100</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eos facere doloribus asperiores vel voluptas ea enim cupiditate quos culpa!</p>
+            <button>Buy now</button>
+        </div>
+        <div class="dress">
+            <img src="Sporshia.jpg" alt="">
+            <h3>dress-item</h3>
+            <p>Price: 0200</p>
+            <p>Pariatur nostrum iusto exercitationem ad dignissimos! Fuga perferendis iusto, corporis ab quibusdam illum delectus ad nihil non aspernatur? Nam, expedita!</p>
+            <button>Buy now</button>
+        </div>
+        <div class="dress">
+            <img src="Sporshia.jpg" alt="">
+            <h3>dress-item</h3>
+            <p>Price: 0300</p>
+            <p>Alias quaerat magni voluptatibus quibusdam adipisci laborum voluptas, impedit et velit sunt sed, quia tempora explicabo optio possimus, distinctio animi?</p>
+            <button>Buy now</button>
+        </div>
+        <div class="dress">
+            <img src="Sporshia.jpg" alt="">
+            <h3>dress-item</h3>
+            <p>Price: 0400</p>
+            <p>Deserunt natus harum totam ex vitae officia quisquam ut nostrum exercitationem, voluptatem atque aspernatur quae earum tempore consequuntur quo doloribus!</p>
+            <button>Buy now</button>
+        </div>
+        <div class="dress">
+            <img src="Sporshia.jpg" alt="">
+            <h3>dress-item</h3>
+            <p>Price: 0500</p>
+            <p>Voluptatem eveniet iure eius dicta distinctio, veniam laudantium error modi fuga aliquam vel molestias sint unde incidunt quos nam! Ipsa!</p>
+            <button>Buy now</button>
+        </div>
+        <div class="dress">
+            <img src="Sporshia.jpg" alt="">
+            <h3>dress-item</h3>
+            <p>Price: 0600</p>
+            <p>Nostrum rerum officia ut inventore? Ad, minus cumque in rerum quibusdam nesciunt, ex, debitis voluptatem laudantium vitae vel ratione soluta.</p>
+            <button>Buy now</button>
+        </div>
+        <div class="dress">
+            <img src="Sporshia.jpg" alt="">
+            <h3>dress-item</h3>
+            <p>Price: 0700</p>
+            <p>Recusandae molestiae ea exercitationem excepturi repudiandae? Dolore obcaecati, quam accusamus corporis, labore repellendus dolorem iusto repellat et, aut itaque neque?</p>
+            <button>Buy now</button>
+        </div>
+        <div class="dress">
+            <img src="Sporshia.jpg" alt="">
+            <h3>dress-item</h3>
+            <p>Price: 0800</p>
+            <p>Commodi, minima vero. Iure voluptate doloremque nostrum ipsa maxime, corporis quis blanditiis! Optio amet suscipit earum deleniti quasi totam sint.</p>
+            <button>Buy now</button>
+        </div>
+        <div class="dress">
+            <img src="Sporshia.jpg" alt="">
+            <h3>dress-item</h3>
+            <p>Price: 0900</p>
+            <p>Corporis similique ipsum provident esse, magnam molestias temporibus consequuntur excepturi expedita voluptatum illo repellendus totam culpa maxime inventore nemo enim.</p>
+            <button>Buy now</button>
+        </div>
+        <div class="dress">
+            <img src="Sporshia.jpg" alt="">
+            <h3>dress-item</h3>
+            <p>Price: 1000</p>
+            <p>Alias minima voluptates, odio perferendis culpa amet adipisci doloremque dolorem dignissimos nemo qui atque officia laborum recusandae error nesciunt esse?</p>
+            <button>Buy now</button>
+        </div>
+        <div class="dress">
+            <img src="Sporshia.jpg" alt="">
+            <h3>dress-item</h3>
+            <p>Price: 1100</p>
+            <p>Impedit, ad! Odit, aspernatur. Quibusdam, sint provident? Ipsam, harum, nesciunt, animi quasi sequi est aliquid nam odio ea delectus possimus!</p>
+            <button>Buy now</button>
+        </div>
+        <div class="dress">
+            <img src="Sporshia.jpg" alt="">
+            <h3>dress-item</h3>
+            <p>Price: 1200</p>
+            <p>Exercitationem optio totam debitis accusantium labore quam facere, ea asperiores, ullam ut obcaecati voluptas esse reprehenderit, suscipit praesentium quidem provident.</p>
+            <button>Buy now</button>
+        </div>
+    </div>
+
+</body>
+</html>
